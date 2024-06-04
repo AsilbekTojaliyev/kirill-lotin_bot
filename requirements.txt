@@ -1,0 +1,2 @@
+worker: python main.py
+aiogram~=3.7.0
