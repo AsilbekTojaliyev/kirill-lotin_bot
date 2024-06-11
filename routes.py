@@ -9,7 +9,8 @@ router = Router()
 
 @router.message(CommandStart())
 async def start(mg: Message):
-    await mg.reply(f"salom {mg.from_user.first_name}, bot kirilldan lotinga va lotindan kirillga o'tkazadi.")
+    await mg.reply(f"salom {mg.from_user.first_name}, "
+                   f"bot kirilldan lotinga va lotindan kirillga o'tkazadi.")
 
 
 @router.message(Command("/help"))
